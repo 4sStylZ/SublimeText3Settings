@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8" ?>
+    <dataset>
+        <${1:tableName}
+            ${2:fieldName}="${3:value}"
+        />
+    </dataset>
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>createXmlDataset</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!--<scope>source.xml</scope>-->
+</snippet>

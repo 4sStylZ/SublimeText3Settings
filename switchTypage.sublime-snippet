@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+// Switch avec typage === sur le champ $SELECTION.
+switch(true)
+{
+    case ($SELECTION === 1) :
+        
+        break;
+    case ($SELECTION === 2) :
+        
+        break;
+    case ($SELECTION === 3) :
+        
+        break;
+    default :
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

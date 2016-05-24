@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Obtention des données de tests des TU.
+ * Cette méthode est appellée par le setUp() par de la classe phpUnit
+ * Zend_Test_PHPUnit_DatabaseTestCase.
+ *
+ * @return object Dataset
+ */
+protected function getDataSet()
+{
+    return \$this->createFlatXmlDataSet(
+        "application/${1:Project}/${2:datas?}/${3:Folder}/${4:File name}.xml"
+    );
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>getDataSet</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

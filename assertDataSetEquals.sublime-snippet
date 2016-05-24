@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+// On récupere la table sur laquelle on vient d’insérer les données.
+\$tableReel = new Zend_Test_PHPUnit_Db_DataSet_QueryDataSet(
+    \$this->getConnection()
+);
+
+\$tableReel->addTable(
+    '$1',
+    'SELECT * FROM $1'
+);
+
+// On compare
+\$this->assertDataSetsEqual(
+    \$this->createFlatXmlDataSet(
+        'application/${20:mgc}/datasOut/${30:folder}/$1.xml'
+    ),
+    \$tableReel
+);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>assertDatasetEquals</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

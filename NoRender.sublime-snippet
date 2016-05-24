@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// Pas de layout ni de vue pour cette action.
+\$this->_helper->layout->disableLayout();
+\$this->_helper->viewRenderer->setNoRender(TRUE);
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.php</scope> -->
+</snippet>

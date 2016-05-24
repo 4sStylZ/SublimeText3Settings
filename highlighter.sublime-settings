@@ -1,0 +1,4 @@
+{
+    // Affichage de l’éspace insécable en plus des options par défaut.
+    "highlighter_regex": "(\t+ +)|( +\t+)|[ ]|[\t ]+$",
+}

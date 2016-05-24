@@ -1,0 +1,78 @@
+[
+	// Je met Sauvegarder «Tout» à la place de sauvegarder sous.
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+
+	// Pouvoir sauter à la prochaine ligne vide par alt+up & alt+down.
+	{ "keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
+	{ "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
+
+	// Je bind quattres raccourcis qui me permettent de sauter au layout de
+	// mon choix et de ne pas avoir à utiliser ma souris.
+	{ "keys": ["ctrl+v"], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+d"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["ctrl+l"], "command": "focus_group", "args": { "group": 2 } },
+	{ "keys": ["ctrl+j"], "command": "focus_group", "args": { "group": 3 } },
+
+	// Azerty
+	{ "keys": ["ctrl+f9"], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+f10"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["ctrl+f11"], "command": "focus_group", "args": { "group": 2 } },
+	{ "keys": ["ctrl+f12"], "command": "focus_group", "args": { "group": 3 } },
+
+
+	// Je binde un raccourci «Ctrl+Explorateur» permettant d’aller utiliser
+	// l’explorateur par les touches du clavier et les flèches directionnelles.
+	{ "keys": ["ctrl+e"], "command": "focus_side_bar" },
+
+	// Je mappe le paramètre le raccourci du package alignement pour forcer
+	// l’alignement sur un caractère donné.
+	{ "keys": ["f12"], "command": "alignment" },
+
+	// Je mappe f1 sur la selection d’une variable sur la doc php.net.
+	{ "keys": ["f1"], "command": "goto_documentation" },
+
+	// Je binde alt+Find pour toggle la recherche sur la selection ou non.
+	{ "keys": ["alt+f"], "command": "toggle_in_selection", "context":
+	  [
+	     { "key": "setting.is_widget", "operator": "equal", "operand": true }
+	  ]
+	},
+
+	// Je binde des touches custom pour faire de la selection verticale avec alt
+	// et les touches directionnelles up & down.
+	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+	// Je binde le package alt+m pour activer la preview d’un document markdown
+	// à l’aide du package markdown preview.
+	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+
+	// Je bind le jump to definition natif ST3.
+    { "keys": ["alt+j"], "command": "goto_definition" },
+
+    // Je bind les raccourcis de Sublime code intel pour jump & jump back.
+	{ "keys": ["ctrl+space"], "command": "code_intel_auto_complete" },
+	{ "keys": ["alt+right"], "command": "goto_python_definition"},
+	{ "keys": ["alt+left"], "command": "back_to_python_definition"},
+
+	// Bind du raccourci pour supprimer les lignes inutiles sur la selection.
+	{
+		"command": "delete_blank_lines",
+		"args": { "surplus": true },
+		"keys": [
+		  "ctrl+b"
+		]
+	},
+
+	// Bind du raccourci advanced new file.
+	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+	{ "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file_new", "args": {"is_python": true}},
+	{
+		"keys": ["tab"],
+		"command": "insert",
+		"args": {"characters": "\t"},
+		"context": [{
+			"key": "setting.anf_panel"
+		}]
+	}
+]

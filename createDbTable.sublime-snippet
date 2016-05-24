@@ -1,0 +1,63 @@
+<snippet>
+<content><![CDATA[
+<?php
+
+    /**
+     * DbTable de gestion de la table $1.
+     *
+     * Sont regroupées ici les méthodes permettant $3
+     *
+     * @author: aschmitt@inbox.fr
+     */
+    class $2_Model_DbTable_$4 extends Zend_Db_Table_Abstract
+    {
+        protected     \$_name = '$1';
+        public static \$name  = '$1';
+        protected \$_primary  =  $5;
+    }
+
+<?php
+
+    /**
+     * Classe de test du DbTable de gestion de la table $1.
+     *
+     * Ce DbTable permet $3
+     *
+     * @author: aschmitt@inbox.fr
+     */
+    class $4Test extends TestUnit_InboxDbTest
+    {
+
+        private \$dbTable;
+
+        /**
+         * Instanciation du DbTable à tester tout au long des tests.
+         *
+         * @return void
+         */
+        public function __construct()
+        {
+            parent::__construct();
+
+            \$this->dbTable = new $2_Model_DbTable_$4;
+        }
+
+       /**
+        * Vérification que l'on peut instancier la classe.
+        *
+        * @return void
+        */
+        public function testInstanciation()
+        {
+           // On vérifie que la classe étend bien la classe zend_db_table
+           \$this->assertInstanceOf(
+               'Zend_Db_Table_Abstract',
+               \$this->dbTable          ,
+               'Le model ne semble pas être un Zend Db Table.'
+           );
+        }
+    }
+
+]]></content>
+<tabTrigger>createDbTable</tabTrigger>
+</snippet>

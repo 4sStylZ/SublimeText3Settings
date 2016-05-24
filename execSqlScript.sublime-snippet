@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+// Lancement du script de ${10:création des données de}
+\$this->execSqlScript('${20:gaia}', '${30:datasIn}/${40:DataManipulation}', '${50:createTableLongNights}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>execSqlScript</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

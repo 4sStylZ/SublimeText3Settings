@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+[WIP] $1 | $2 | ID-$3 : $4
+
+**Objectif :** $4
+
+**Vivify : ID-$3** $5
+$6
+
+________________________ 
+
+$7
+**Plan d'action :**
+* xxx.
+* xxx.
+
+________________________
+
+**Plan de test :**
+* [ ] Activer l'affichage des logs pendant tout le processus de test.
+* [ ] Sonar sans remonté d'erreurs sur le projet $1.
+* [ ] PhpUnit sans remonté d'erreurs.
+* [ ] Changelog décrivant les apports.
+* [ ] $8
+* [ ] Il n'y a pas de nouvelles erreurs, avertisement ou notification visibles dans les logs.
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>createMergeRequest</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.php</scope> -->
+</snippet>

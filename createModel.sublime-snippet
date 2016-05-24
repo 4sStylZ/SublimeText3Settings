@@ -1,0 +1,57 @@
+<snippet>
+<content><![CDATA[
+<?php
+
+    /**
+     * Model de gestion des fonctionnalités de $1.
+     *
+     * @author: aschmitt@inbox.fr
+     */
+    class $2_Model_$4
+    {
+        $5
+    }
+
+<?php
+
+    /**
+     * Model de gestion des fonctionnalités de $1.
+     *
+     * @author: aschmitt@inbox.fr
+     */
+    class $4Test extends TestUnit_InboxDbTest
+    {
+
+        private \$model;
+
+        /**
+         * Instanciation du model à tester tout au long des tests.
+         *
+         * @return void
+         */
+        public function __construct()
+        {
+            parent::__construct();
+
+            \$this->model = new $2_Model_$4;
+        }
+
+       /**
+        * Vérification que l'on peut instancier la classe.
+        *
+        * @return void
+        */
+        public function testInstanciation()
+        {
+           // On vérifie que la classe peut être instanciée.
+           \$this->assertInternalType(
+               'object'     ,
+                \$this->model,
+               'La classe n’est pas un objet or elle devrait être éxploitable.'
+           );
+        }
+    }
+
+]]></content>
+<tabTrigger>createModel</tabTrigger>
+</snippet>

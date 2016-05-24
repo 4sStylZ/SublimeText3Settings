@@ -1,0 +1,37 @@
+{
+	"auto_find_in_selection": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/SublimeLinter/Stellar Shadows (SL).tmTheme",
+	"detect_indentation": true,
+	"detect_slow_plugins": true,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Profont",
+	"font_size": 11,
+	"hide_minimap": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Git",
+		"GitGutter",
+		"PHPIntel",
+		"Vintage",
+		"Xdebug Client"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"indent_to_bracket": false,
+	"rulers":
+	[
+		80,
+		120,
+		180
+	],
+	"tab_size": 4,
+	"theme": "Argonaut.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

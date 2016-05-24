@@ -1,0 +1,34 @@
+// Trailing Spaces' default settings.
+//
+// In order to tweak the settings, you should NOT edit this file, but instead
+// the user-specific, empty-by-default version under "Preferences / Package
+// Settings / Trailing Spaces / Settings - User".
+//
+// See Trailing Spaces' README for detailed instructions.
+{
+
+    // Highlight color is specified as a scope. You may define and use a custom
+    // scope to better fit your colorscheme. A value of empty string "" will
+    // make highlights invisible.
+    "trailing_spaces_highlight_color" : "invalid.deprecated",
+
+    // By default, empty lines are cleared as well when calling the deletion
+    // command.
+    // Set to false to ignore empty lines upon deletion.
+    "trailing_spaces_include_empty_lines" : true,
+
+    // By default, the line being currently edited will have its trailing
+    // spaces highlighted.
+    // Set to false to ignore trailing spaces on the edited line.
+    "trailing_spaces_include_current_line" : false,
+
+    // By default, nothing happens on save.
+    // Set to true to trim trailing spaces before saving, with respect to the
+    // other settings.
+    "trailing_spaces_trim_on_save": true,
+
+    // ---- NEXT SETTINGS ARE FOR POWER USERS ONLY! ----
+
+    // Gestion des éspaces insécables
+    "trailing_spaces_regexp": "[ \t ]+"
+}

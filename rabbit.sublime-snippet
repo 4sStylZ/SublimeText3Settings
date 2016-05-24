@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+error_log(' / \`\          __    ');
+error_log(' |  \ `\      /`/ \   ');
+error_log(' \_/`\  \-"-/` /\  \  ');
+error_log('      |       |  \  | ');
+error_log('      (d     b)   \_/ ');
+error_log('      /       \       ');
+error_log('  ,".|.".\_/.".|.",   ');
+error_log(' /   /\  _|_  /\   \  ');
+error_log(' |  /  \-`"`-/  \  |  ');
+error_log(' | |   ~INBOX~   | |  ');
+error_log(' | \    \   /    / |  ');
+error_log('  \ \    \ /    / /   ');
+error_log('   `"`\   :   /’"’    ');
+error_log('       `""`""`        ');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

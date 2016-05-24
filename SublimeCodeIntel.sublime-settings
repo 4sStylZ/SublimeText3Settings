@@ -1,0 +1,23 @@
+/*
+   SublimeCodeIntel default settings
+   All settings can be overridden in *.sublime-project file
+*/
+{
+
+    /*
+       Tooltips method:
+
+       "popup" - Uses Autocomplete popup for tooltips.
+       "panel" - Uses the output panel for tooltips.
+       "status" - Uses the status bar for tooltips (was the default).
+    */
+    "codeintel_tooltips": "status",
+
+    /*
+       "buffer" - add word completions from current view
+       "all" - add word completions from all views from active window
+       "none" - do not add word completions
+    */
+    "codeintel_word_completions": "all",
+
+}

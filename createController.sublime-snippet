@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+<?php
+
+    /**
+     * Contrôleur de gestion des fonctionnalités de $1.
+     *
+     * @author: aschmitt@inbox.fr
+     */
+    class $2_$4Controller
+    {
+        $5
+    }
+
+]]></content>
+<tabTrigger>createController</tabTrigger>
+</snippet>
