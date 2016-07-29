@@ -12,9 +12,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Git",
-		"GitGutter",
 		"PHPIntel",
+		"SublimeCodeIntel",
 		"Vintage",
 		"Xdebug Client"
 	],
