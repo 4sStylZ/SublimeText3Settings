@@ -74,5 +74,14 @@
 		"context": [{
 			"key": "setting.anf_panel"
 		}]
+	},
+
+	// Scroller de 5 lignes en 5 lignes.
+	{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 5.0 } },
+	{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -5.0 } },
+
+	{
+        "keys": ["ctrl+shift+w"], "command": "close_other_tabs"
+
 	}
 ]
