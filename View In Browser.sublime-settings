@@ -1,0 +1,17 @@
+{
+    "posix": {
+        "linux": {
+            "firefox": "firefox -new-tab",
+            "chrome": "google-chrome",
+            "chrome64": "google-chrome",
+            "chromium": "chromium"
+        },
+        "linux2": {
+            "firefox": "firefox -new-tab",
+            "chrome": "google-chrome",
+            "chrome64": "google-chrome",
+            "chromium": "chromium"
+        }
+    },
+    "browser": "default"
+}

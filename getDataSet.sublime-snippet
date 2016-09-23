@@ -9,7 +9,8 @@
  */
 protected function getDataSet()
 {
-    return \$this->createFlatXmlDataSet(
+    // mysqldump --xml -t -u<user> --password=<password> sec table
+    return \$this->createMySQLXMLDataSet(
         "application/${1:Project}/${2:datas?}/${3:Folder}/${4:File name}.xml"
     );
 }

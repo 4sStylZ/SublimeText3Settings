@@ -1,0 +1,62 @@
+<snippet>
+    <content><![CDATA[
+[WIP] $10 | $20 | ID-$30 : $40
+
+# Objectif
+
+**$40**
+* $43
+* Fix #$45
+
+**Vivify : ID-$30** $50
+$60
+
+________________________
+
+# Plan d'action
+* $70
+
+________________________
+
+# Plan de test
+
+## Installation de l’application.
+* [ ] `npm install`
+* [ ] `gulp rebuild`
+* [ ] Lancement de sélénium (pour les TF) via `webdriver-manager start`
+* [ ] Lancement du serveur (application disponible sur http://localhost:8000) via `gulp webserver`
+
+## Audit de code manuel
+* [ ] Le code respecte nos normes et standard : https://git.inbox.fr/inbox/target-front/wikis/normes&standards
+* [ ] Les nouvelles chaînes à l’écran passent par le traducteur.
+* [ ] Pas d’injections possibles (XSS, CSRF, SQL…).
+* [ ] Le code est compréhensible et commenté (Regex, requêtes complexes).
+* [ ] Le code est PSR-2 compliant.
+* [ ] Le code est KISS.
+* [ ] Tests unitaires codés sur les nouveaux devs en cas de présence d’un model.
+* [ ] Changelog décrivant les apports rédigé.
+
+## Tests manuels récurents
+* [ ] Vérification orthographique éffectuée.
+* [ ] Sonar sans remonté d'erreurs sur le projet.
+* [ ] Test fonctionnels Protractor sans remonté d’erreurs via `npm run protractor`. (Le lancer plusieurs fois si la première fois plantent).
+* [ ] Test unitaires Karma/Jasmine sans remonté d’erreurs via `npm test`.
+* [ ] `gulp docs` génère sans erreur la doc des nouvelles méthodes.
+
+## Test de l’environnement de prod
+* [ ] Propagation éffectuée sans problème.
+* [ ] `gulp deploy` OK.
+* [ ] `gulp rebuild` OK & application «dist» accessible.
+* [ ] Il n'y a pas de nouvelles erreurs, avertisement ou notification visibles dans les logs du navigateur.
+
+## Tests spécifiques
+* [ ] Activer l'affichage des logs pendant tout le processus de test.
+* [ ] $80
+* [ ] Il n'y a pas de nouvelles erreurs, avertisement ou notification visibles dans les logs.
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>createFrontMergeRequest</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.php</scope> -->
+</snippet>

@@ -1,7 +1,7 @@
 {
 	"auto_find_in_selection": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/SublimeLinter/Stellar Shadows (SL).tmTheme",
+	"color_scheme": "Packages/User/Ardoise.tmTheme",
 	"detect_indentation": true,
 	"detect_slow_plugins": true,
 	"draw_white_space": "selection",
@@ -12,6 +12,11 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Autoprefixer",
+		"Color Highlighter",
+		"Git",
+		"GitGutter",
+		"Phpcs",
 		"PHPIntel",
 		"SublimeCodeIntel",
 		"Vintage",
@@ -22,14 +27,19 @@
 		"draw_active"
 	],
 	"indent_to_bracket": false,
+	"numix_sidebar_tree_xsmall": true,
+	"numix_xsmall_tabs": true,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		80,
 		120,
 		180
 	],
+	"sidebar_tree_xsmall": true,
 	"tab_size": 4,
-	"theme": "Argonaut.sublime-theme",
+	"tabs_small": true,
+	"theme": "Numix Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
