@@ -8,16 +8,12 @@
 
 	// Je bind quattres raccourcis qui me permettent de sauter au layout de
 	// mon choix et de ne pas avoir à utiliser ma souris.
+
+	// Bépo
 	{ "keys": ["ctrl+v"], "command": "focus_group", "args": { "group": 0 } },
 	{ "keys": ["ctrl+d"], "command": "focus_group", "args": { "group": 1 } },
 	{ "keys": ["ctrl+l"], "command": "focus_group", "args": { "group": 2 } },
 	{ "keys": ["ctrl+j"], "command": "focus_group", "args": { "group": 3 } },
-
-	// Azerty
-	{ "keys": ["ctrl+f9"], "command": "focus_group", "args": { "group": 0 } },
-	{ "keys": ["ctrl+f10"], "command": "focus_group", "args": { "group": 1 } },
-	{ "keys": ["ctrl+f11"], "command": "focus_group", "args": { "group": 2 } },
-	{ "keys": ["ctrl+f12"], "command": "focus_group", "args": { "group": 3 } },
 
 
 	// Je binde un raccourci «Ctrl+Explorateur» permettant d’aller utiliser
@@ -83,5 +79,7 @@
 	{
         "keys": ["ctrl+shift+w"], "command": "close_other_tabs"
 
-	}
+	},
+
+	{ "keys": ["ctrl+shift+t"], "command": "new_pane" }
 ]
