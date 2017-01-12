@@ -2,23 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"AngularJS",
-		"Bootstrap 3 Snippets",
-		"BracketHighlighter",
-		"ColorPicker",
-		"ColorSchemeEditor",
-		"Emmet",
-		"JSON Reindent",
-		"PHPUnit",
-		"PHPUnit Snippets",
-		"SqlBeautifier",
-		"sublimelint",
-		"SublimeLinter",
-		"SublimeLinter-json",
-		"Theme - Argonaut",
-		"Theme - LP",
-		"Theme - Numix",
-		"Theme - Phoenix"
 	],
 	"installed_packages":
 	[
