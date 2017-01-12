@@ -1,4 +1,4 @@
-# Why this conf?
+# Why this conf ?
 
 It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty-one) so don’t expect good qwerty keybindings.
 
