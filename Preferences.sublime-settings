@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": false,
 	"auto_find_in_selection": true,
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/Ardoise.tmTheme",
@@ -9,12 +10,13 @@
 	],
 	"detect_indentation": true,
 	"detect_slow_plugins": true,
+	"draw_minimap": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Profont",
 	"font_size": 11,
 	"format_on_save": true,
-	"hide_minimap": true,
+	"hide_minimap": "true",
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -46,6 +48,7 @@
 		180
 	],
 	"show_encoding": true,
+	"show_minimap": false,
 	"sidebar_tree_xsmall": true,
 	"tab_size": 4,
 	"tabs_small": true,
