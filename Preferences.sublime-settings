@@ -30,8 +30,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
-		"Vintage",
-		"Xdebug Client"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[

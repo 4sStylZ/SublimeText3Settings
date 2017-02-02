@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+error_log("   __       __   ");
+error_log("  / <`     '> \  ");
+error_log(" (  / @   @ \  ) ");
+error_log("  \(_ _\_/_ _)/  ");
+error_log("(\ `-/     \-' /)");
+error_log(" \===\     /===/ ");
+error_log("  .==')___(`==.  ");
+error_log(" ' .='     `=.   ");
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>crabe</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

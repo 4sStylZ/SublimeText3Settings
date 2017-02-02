@@ -2,5 +2,5 @@
     // Ne pas oublier de l’activer avec «toggle highlighter» sur la command palette.
     //
     // Affichage de l’éspace insécable en plus des options par défaut.
-    "highlighter_regex": "(\t+ +)|( +\t+)|[ ]|[\t ]+$",
+    "highlighter_regex": "(\t+ +)|( +\t+)|[ ]|[ ]|[\t ]+$"
 }

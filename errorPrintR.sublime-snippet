@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 error_log('$SELECTION : ');
-error_log(print_r($SELECTION, 1));
+error_log(var_export($SELECTION, 1));
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <!-- <tabTrigger>hello</tabTrigger> -->
