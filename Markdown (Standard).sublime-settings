@@ -1,0 +1,15 @@
+{
+    "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+
+    // Layout
+    "draw_centered": false,
+    "word_wrap": true,
+    "wrap_width": 120,
+    "rulers": [],
+
+    // Caret
+    "caret_style": "solid",
+    "caret_extra_top": 0,
+    "caret_extra_bottom": 0
+
+}
