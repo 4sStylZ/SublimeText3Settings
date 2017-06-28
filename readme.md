@@ -10,7 +10,7 @@ It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty
   * Snippets.
   * Linters.
 
-# Installation
+# Installation
 
 ## Sublime
 
@@ -20,7 +20,7 @@ It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty
 * Clone the project in your config folder `git clone https://github.com/4sStylZ/SublimeText3.git ~/.config/sublime-text-3/Packages/User/`
 * Start sublime and wait : The package control need to install all the packages.
 
-## Fonts (if you want ProFont).
+## Fonts (optionnal, if you want ProFont).
 
 * Extracts the `.fonts` archive on your home directory : `~/.config/.fonts`.
 * CP `.fonts.conf` to your home : `~/.fonts.conf`. (Or concat the content at your file if you have already a `.fonts.conf`).
