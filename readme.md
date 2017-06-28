@@ -9,6 +9,12 @@ It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty
   * Cool package.
   * Snippets.
   * Linters.
+* Markdown Editing optimized.
+* Custom theme.
+
+# Preview
+
+![prevew](http://i.imgur.com/LoT9tei.jpg)
 
 # Installation
 
