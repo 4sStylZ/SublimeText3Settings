@@ -51,6 +51,7 @@ pre {
 
 .markdown-body strong {
   font-weight: bold;
+  color:#009ee2;
 }
 
 .markdown-body h1 {
@@ -147,6 +148,8 @@ pre {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
+  padding-left:20px;
+  padding-right:20px;
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 1.1;
@@ -154,20 +157,28 @@ pre {
 
 .markdown-body h1 {
   font-size: 30px;
-  color:#31708f;
+  color: #fff;
+  background-color: #07627f;
+  padding-top: 10px;
+  border-radius:0 10px 0 10px
 }
 
 .markdown-body h2 {
   font-size: 21px;
-  color:#31708f;
+  color: #31708f;
+  background-color: #d9edf7;
+  padding-top: 10px;
+  border-radius:0 10px 0 10px
 }
 
 .markdown-body h3 {
   font-size: 16px;
+  color:#6698b1;
 }
 
 .markdown-body h4 {
   font-size: 14px;
+  color:#7c8b92;
 }
 
 .markdown-body h5 {
@@ -179,7 +190,8 @@ pre {
 }
 
 .markdown-body blockquote {
-  margin: 0;
+  margin: 0px;
+  margin-left: 50px;
 }
 
 .markdown-body ul,
@@ -732,6 +744,12 @@ pre {
   border-color: #4078c0;
 }
 
-.markdown-body p {
-  margin-left: 50px;
+.markdown-body p,
+.markdown-body ul {
+  margin-left: 25px;
+}
+
+.markdown-body ul ul,
+.markdown-body ul li{
+  margin-left: 0px;
 }

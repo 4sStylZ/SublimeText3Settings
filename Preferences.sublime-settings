@@ -12,7 +12,7 @@
 	"draw_minimap": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
+	"font_size": 8,
 	"format_on_save": true,
 	"hide_minimap": "true",
 	"highlight_line": true,
