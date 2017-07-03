@@ -9,6 +9,7 @@
 	],
 	"detect_indentation": true,
 	"detect_slow_plugins": true,
+	"dictionary": "Packages/Language - French - Français/fr_FR (all variants).dic",
 	"draw_minimap": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,

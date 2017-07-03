@@ -745,11 +745,12 @@ pre {
 }
 
 .markdown-body p,
-.markdown-body ul {
+.markdown-body ul,
+.markdown-body ol {
   margin-left: 25px;
 }
 
 .markdown-body ul ul,
-.markdown-body ul li{
+.markdown-body ul ol{
   margin-left: 0px;
 }
