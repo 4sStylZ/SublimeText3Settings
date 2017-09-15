@@ -1,0 +1,28 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Version",
+				"id": "stino_platform_version",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_platform_versions",
+						"command": "stino_refresh_platform_versions"
+					},
+					{
+						"caption": "Check Toolchain",
+						"id": "stino_check_tools",
+						"command": "stino_check_tools"
+					},
+					{"caption": "-"}
+				]
+			}
+		]
+	}
+]

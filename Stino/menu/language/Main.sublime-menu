@@ -1,0 +1,23 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Language",
+				"id": "stino_language",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_languages",
+						"command": "stino_refresh_languages"
+					},
+					{"caption": "-"}
+				]
+			}
+		]
+	}
+]

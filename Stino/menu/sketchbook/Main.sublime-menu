@@ -1,0 +1,45 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Open Sketch",
+				"id": "stino_sketchbook",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_sketchbook",
+						"command": "stino_refresh_sketchbook"
+					},
+					{
+						"caption": "Change Location...",
+						"id": "stino_change_sketchbook_location",
+						"command": "stino_change_sketchbook_location"
+					},
+					{
+						"caption": "In New Window",
+						"id": "stino_open_in_new_win",
+						"command": "stino_open_in_new_win",
+						"checkbox": true
+					},
+					{
+						"caption": "All Source Files",
+						"id": "stino_open_all_src",
+						"command": "stino_open_all_src",
+						"checkbox": true
+					},
+					{"caption": "-"},					{
+						"caption": "New Sketch...",
+						"id": "stino_new_sketch",
+						"command": "stino_new_sketch"
+					},
+					{"caption": "-"}
+				]
+			}
+		]
+	}
+]

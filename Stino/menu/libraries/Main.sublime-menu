@@ -1,0 +1,23 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Library",
+				"id": "stino_import_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_libraries",
+						"command": "stino_refresh_libraries"
+					},
+					{"caption": "-"}
+				]
+			}
+		]
+	}
+]

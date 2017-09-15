@@ -1,0 +1,24 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Open Example",
+				"id": "stino_examples",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_examples",
+						"command": "stino_refresh_examples"
+					},
+					{"caption": "-"},
+					{"caption": "-"}
+				]
+			}
+		]
+	}
+]

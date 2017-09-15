@@ -1,0 +1,100 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Programmer",
+				"id": "stino_programmer",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_programmers",
+						"command": "stino_refresh_programmers"
+					},
+					{"caption": "-"},
+					{
+						"caption": "AVR ISP",
+						"id": "stino_programmer_AVR ISP",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "AVR ISP"},
+						"checkbox": true
+					},
+					{
+						"caption": "AVRISP mkII",
+						"id": "stino_programmer_AVRISP mkII",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "AVRISP mkII"},
+						"checkbox": true
+					},
+					{
+						"caption": "USBtinyISP",
+						"id": "stino_programmer_USBtinyISP",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "USBtinyISP"},
+						"checkbox": true
+					},
+					{
+						"caption": "ArduinoISP",
+						"id": "stino_programmer_ArduinoISP",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "ArduinoISP"},
+						"checkbox": true
+					},
+					{
+						"caption": "ArduinoISP.org",
+						"id": "stino_programmer_ArduinoISP.org",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "ArduinoISP.org"},
+						"checkbox": true
+					},
+					{
+						"caption": "USBasp",
+						"id": "stino_programmer_USBasp",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "USBasp"},
+						"checkbox": true
+					},
+					{
+						"caption": "Parallel Programmer",
+						"id": "stino_programmer_Parallel Programmer",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "Parallel Programmer"},
+						"checkbox": true
+					},
+					{
+						"caption": "Arduino as ISP",
+						"id": "stino_programmer_Arduino as ISP",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "Arduino as ISP"},
+						"checkbox": true
+					},
+					{
+						"caption": "Arduino Gemma",
+						"id": "stino_programmer_Arduino Gemma",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "Arduino Gemma"},
+						"checkbox": true
+					},
+					{
+						"caption": "Atmel STK500 development board",
+						"id": "stino_programmer_Atmel STK500 development board",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "Atmel STK500 development board"},
+						"checkbox": true
+					},
+					{
+						"caption": "BusPirate as ISP",
+						"id": "stino_programmer_BusPirate as ISP",
+						"command": "stino_select_programmer",
+						"args": {"programmer_name": "BusPirate as ISP"},
+						"checkbox": true
+					}
+				]
+			}
+		]
+	}
+]
