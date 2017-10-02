@@ -26,8 +26,26 @@ It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty
 * Clone the project in your config folder `git clone https://github.com/4sStylZ/SublimeText3.git ~/.config/sublime-text-3/Packages/User/`
 * Start sublime and wait : The package control need to install all the packages.
 
-## Fonts (optionnal, if you want ProFont).
+## Optionnal : Fonts (optionnal, if you want ProFont).
+
+### Profont IIX
+
+The new Tobias JUNG Profont IIX seems to be the best for Linux.
+Find them and install them in the folder `.config/sublime-text-3/Packages/User/Fonts/profontiix/`
+
+Alternative : 
+
+http://tobiasjung.name/downloadfile.php?file=profontiix.zip
+
+### Old Profonts
 
 * Extracts the `.fonts` archive on your home directory : `~/.config/.fonts`.
 * CP `.fonts.conf` to your home : `~/.fonts.conf`. (Or concat the content at your file if you have already a `.fonts.conf`).
 * Type `fc-cache -fv` on a terminal for force-reload the font cache.
+
+## Optionnal : Hack and disable all the update message from package manager
+
+* Open Resource via PackageResourceViewer -> Select Package Control (installed by default in this sublime conf).
+* Select package_control/package_manager.py to edit.
+* Comment out line self.print_messages(package_name, package_dir, is_upgrade, old_version, new_version) by putting a hash # in the front.
+* Save file.
