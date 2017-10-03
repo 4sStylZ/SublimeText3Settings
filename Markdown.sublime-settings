@@ -4,8 +4,8 @@
 
     // Layout
     "draw_centered": false,
-    "word_wrap": false,
-    "wrap_width": 95,
+    "word_wrap": true,
+    "wrap_width": 120,
     "rulers": [120],
 
     // Caret

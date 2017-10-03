@@ -533,6 +533,17 @@
 										}
 									]								},
 									{
+									"caption": "ANTPLUS-Arduino",
+									"id": "stino_lib_cat_name_ANTPLUS-Arduino",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "0.1.0",
+											"id": "stino_lib_cat_name_ver_0.1.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Communication", "name": "ANTPLUS-Arduino", "version": "0.1.0"}
+										}
+									]								},
+									{
 									"caption": "AppleMIDI",
 									"id": "stino_lib_cat_name_AppleMIDI",
 									"children":
@@ -7086,6 +7097,17 @@
 											"command": "stino_install_lib",
 											"args": {"category": "Data Processing", "name": "FIR filter", "version": "0.1.1"}
 										}
+									]								},
+									{
+									"caption": "FixedPoints",
+									"id": "stino_lib_cat_name_FixedPoints",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Data Processing", "name": "FixedPoints", "version": "1.0.0"}
+										}
 									]								}
 								]							},
 							{
@@ -13013,6 +13035,11 @@
 											"command": "stino_install_lib",
 											"args": {"category": "Display", "name": "Adafruit ILI9341", "version": "1.0.10"}
 										},
+										{											"caption": "1.0.11",
+											"id": "stino_lib_cat_name_ver_1.0.11",
+											"command": "stino_install_lib",
+											"args": {"category": "Display", "name": "Adafruit ILI9341", "version": "1.0.11"}
+										},
 										{											"caption": "1.0.2",
 											"id": "stino_lib_cat_name_ver_1.0.2",
 											"command": "stino_install_lib",
@@ -15990,6 +16017,11 @@
 											"id": "stino_lib_cat_name_ver_0.2.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "AFArray", "version": "0.2.0"}
+										},
+										{											"caption": "0.2.2",
+											"id": "stino_lib_cat_name_ver_0.2.2",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "AFArray", "version": "0.2.2"}
 										}
 									]								},
 									{
@@ -16638,6 +16670,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.0",
 											"command": "stino_install_lib",
 											"args": {"category": "Other", "name": "Brasilino", "version": "1.0.0"}
+										},
+										{											"caption": "1.0.1",
+											"id": "stino_lib_cat_name_ver_1.0.1",
+											"command": "stino_install_lib",
+											"args": {"category": "Other", "name": "Brasilino", "version": "1.0.1"}
 										}
 									]								},
 									{
@@ -19268,6 +19305,11 @@
 											"id": "stino_lib_cat_name_ver_1.0.5",
 											"command": "stino_install_lib",
 											"args": {"category": "Sensors", "name": "BlueDot BME280 Library", "version": "1.0.5"}
+										},
+										{											"caption": "1.0.6",
+											"id": "stino_lib_cat_name_ver_1.0.6",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "BlueDot BME280 Library", "version": "1.0.6"}
 										}
 									]								},
 									{
@@ -20851,6 +20893,17 @@
 								"id": "stino_lib_cat_initial_P",
 								"children":
 								[									{"caption": "-"},
+									{
+									"caption": "pH Probe Interface",
+									"id": "stino_lib_cat_name_pH Probe Interface",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Sensors", "name": "pH Probe Interface", "version": "1.0.0"}
+										}
+									]								},
 									{
 									"caption": "PololuHD44780",
 									"id": "stino_lib_cat_name_PololuHD44780",
@@ -22540,6 +22593,17 @@
 								"children":
 								[									{"caption": "-"},
 									{
+									"caption": "EasyBuzzer",
+									"id": "stino_lib_cat_name_EasyBuzzer",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.0.0",
+											"id": "stino_lib_cat_name_ver_1.0.0",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "EasyBuzzer", "version": "1.0.0"}
+										}
+									]								},
+									{
 									"caption": "eBtn",
 									"id": "stino_lib_cat_name_eBtn",
 									"children":
@@ -23336,6 +23400,17 @@
 											"id": "stino_lib_cat_name_ver_1.4.2",
 											"command": "stino_install_lib",
 											"args": {"category": "Signal Input/Output", "name": "MD_KeySwitch", "version": "1.4.2"}
+										}
+									]								},
+									{
+									"caption": "MOVI Voice Dialog Shield",
+									"id": "stino_lib_cat_name_MOVI Voice Dialog Shield",
+									"children":
+									[										{"caption": "-"},
+										{											"caption": "1.1.13",
+											"id": "stino_lib_cat_name_ver_1.1.13",
+											"command": "stino_install_lib",
+											"args": {"category": "Signal Input/Output", "name": "MOVI Voice Dialog Shield", "version": "1.1.13"}
 										}
 									]								},
 									{
