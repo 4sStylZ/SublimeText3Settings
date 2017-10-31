@@ -7,5 +7,7 @@
 
     // Inbox settings.
     "css": ["/home/aschmitt/.config/sublime-text-3/Packages/User/style/inboxMarkdown.css"],
-    "enable_autoreload": true
+    "enable_autoreload": true,
+
+    "parser": "github"
 }

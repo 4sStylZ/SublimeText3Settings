@@ -14,7 +14,7 @@
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "ProfontIIx Regular",
-	"font_size": 10,
+	"font_size": 8,
 	"format_on_save": true,
 	"hide_minimap": "true",
 	"highlight_line": true,
@@ -52,5 +52,6 @@
 	"theme": "Numix Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": "auto",
+	"wrap_width": 0
 }
