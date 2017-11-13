@@ -59,6 +59,17 @@ pre {
   margin: 0.67em 0;
 }
 
+.markdown-body h1 > strong {
+  color: white;
+  background-color: #287f9a;
+  border-radius: 0 10px 0 10px;
+  padding: 4px;
+}
+
+// .markdown-body h1:not(:empty) {
+//   text-align: center;
+// }
+
 .markdown-body img {
   border: 0;
 }
