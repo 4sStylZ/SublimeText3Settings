@@ -11,6 +11,16 @@ It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty
   * Linters.
 * Markdown Editing optimized.
 * Custom theme.
+* Package manager message disabled (no fuck to give about update…).
+
+# Don’t fork me, learn to backup your personal conf.
+
+It’s easy to do. 
+* You need to init a repo with your `~/.config/sublime-text-3` folder.
+* Add this `.gitignore` file on the repo https://github.com/4sStylZ/SublimeText3/blob/master/.gitignore.
+* **Be careful. Your license for commercial package will be on the web if you have paid for some of them and don’t ignore it with the file.**
+
+https://forum.sublimetext.com/t/what-s-the-best-way-to-backup-the-st3-configuration/25494
 
 # Preview
 
