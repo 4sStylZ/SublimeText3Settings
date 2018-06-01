@@ -2,7 +2,7 @@
 
 It’s a personal conf optimized for my use, and I am a Bépo user (not a Qwerty-one) so don’t expect good qwerty keybindings.
 
-* Use profont (awesome developper font).
+* Use profont (awesome developper font) or Firacode (For ligature).
 * Power-user oriented -> Moar shortcut!
 * Cool theme with picto.
 * Php / JavaScript oriented.
@@ -36,7 +36,7 @@ https://forum.sublimetext.com/t/what-s-the-best-way-to-backup-the-st3-configurat
 * Clone the project in your config folder `git clone https://github.com/4sStylZ/SublimeText3.git ~/.config/sublime-text-3/Packages/User/`
 * Start sublime and wait : The package control need to install all the packages.
 
-## Optionnal : Fonts (optionnal, if you want ProFont).
+## Optionnal : Install ProFont (Else it will be Firacode)
 
 ### Profont IIX
 
@@ -46,6 +46,8 @@ Find them and install them in the folder `.config/sublime-text-3/Packages/User/F
 Alternative : 
 
 http://tobiasjung.name/downloadfile.php?file=profontiix.zip
+
+Set `ProfontIIx Regular` in place of Firacode in the settings.
 
 ### Old Profonts
 
