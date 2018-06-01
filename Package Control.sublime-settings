@@ -8,7 +8,6 @@
 		"AdvancedNewFile",
 		"Alignment",
 		"All Autocomplete",
-		"AngularJS",
 		"arduino-cli",
 		"Arduino-like IDE",
 		"Autoprefixer",
@@ -22,7 +21,6 @@
 		"ColorSchemeEditor",
 		"DeleteBlankLines",
 		"DocBlockr",
-		"Emmet",
 		"Emoji",
 		"Git",
 		"GitGutter",
@@ -33,12 +31,10 @@
 		"JSHint Gutter",
 		"JSON Reindent",
 		"Language - French - Français",
-		"LESS",
 		"LiveReload",
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"More Layouts",
-		"npm",
 		"Numix Theme",
 		"Package Control",
 		"PackageResourceViewer",
@@ -69,7 +65,6 @@
 		"Theme - Numix Light",
 		"Theme - Phoenix",
 		"TrailingSpaces",
-		"View In Browser",
-		"Xdebug Client"
+		"View In Browser"
 	]
 }

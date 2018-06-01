@@ -13,7 +13,6 @@
 	"draw_minimap": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
-	// "font_face": "ProfontIIx Regular",
 	"font_face": "Fira Code",
 	"font_size": 11,
 	"format_on_save": true,
