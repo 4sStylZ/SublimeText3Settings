@@ -33,7 +33,9 @@ https://forum.sublimetext.com/t/what-s-the-best-way-to-backup-the-st3-configurat
 * Backup your configuration if you have sublime already installed : `cp ~/.config/sublime-text-3 ~/.config/sublime-text-3-oldconf`.
 * Or install sublime by the official website.
 * Install package controll via the website or via the command pallete « Install Package Control ».
-* Clone the project in your config folder `git clone https://github.com/4sStylZ/SublimeText3.git ~/.config/sublime-text-3/Packages/User/`
+* Clone the project in your config folder 
+    * Linux `git clone https://github.com/4sStylZ/SublimeText3.git ~/.config/sublime-text-3/Packages/User/`
+    * Windows via WSL `git clone https://github.com/4sStylZ/SublimeText3.git /mnt/c/Users/YourUser/AppData/Roaming/Sublime\ Text/Packages/User/`
 * Start sublime and wait : The package control need to install all the packages.
 
 ## Optionnal : Install ProFont (Else it will be Firacode)
